@@ -49,7 +49,8 @@ for ($k = 1; $k <= 10; $k++) {
 }
 if (sizeof($vids) > 0) {
 	$videoId = $vids[rand(0, sizeof($vids) - 1)];
-	echo "<a href=\"http://youtube.com/watch?v=".$videoId."\">".$videoId."</a>";
+	// echo "<a href=\"http://youtube.com/watch?v=".$videoId."\">".$videoId."</a>";
+	echo $videoId;
 } else {
 	echo -1;
 }
